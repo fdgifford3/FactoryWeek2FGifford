@@ -5,7 +5,6 @@ public class VanillaCake extends Cake {
 		this.size = size;
 		this.description = "Vanilla Cake";
 	}
-	
 
 	public double cost() {
 		double cost = 0.00;

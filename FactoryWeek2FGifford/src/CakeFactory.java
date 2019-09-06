@@ -5,10 +5,10 @@ public abstract class CakeFactory {
 	public Cake bakeCake(String type, Size size) {
 		Cake cake;
 		
-		cake = createCake(type);
-		cake.setSize(size);
+		cake = createCake(type, size);
+
 		return cake;
 		
 	}
-	public abstract Cake createCake(String type);
+	public abstract Cake createCake(String type, Size size);
 }

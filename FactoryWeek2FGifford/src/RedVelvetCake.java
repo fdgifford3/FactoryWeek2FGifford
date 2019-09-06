@@ -6,11 +6,6 @@ public class RedVelvetCake extends Cake {
 		this.size = size;
 		this.description = "Red Velvet Cake";
 	}
-	
-	public RedVelvetCake() {
-		this.size = Size.FOUR; //default size since factory's create method can now overwrite size
-		this.description = "Red Velvet Cake";
-	}
 
 	public double cost() {
 		double cost = 0.00;

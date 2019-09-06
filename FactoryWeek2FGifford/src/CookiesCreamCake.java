@@ -6,7 +6,6 @@ public class CookiesCreamCake extends Cake {
 		this.description = "Cookies and Cream Cake";
 	}
 	
-
 	public double cost() {
 		double cost = 0.00;
 		
