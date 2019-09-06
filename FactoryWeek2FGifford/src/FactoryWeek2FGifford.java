@@ -3,6 +3,8 @@
  * CPSC-60000 Week 2 Factory Pattern to Extend
  * Week 1 Decorator Pattern with Baking Theme
  * The goal was to reuse code from week 1 and
+ * Keep the decorator pattern with as little refactoring
+ * As possible while still showcasing the factory design
  * 9.6.2019
  * Prof Nowak
  */
